@@ -368,11 +368,11 @@ h2 {
   margin-bottom: 3.75rem; }
 
 /* line 24, _base.scss */
-h1, h2, blockquote, pre, ul, img, figure {
+h1, blockquote, pre, ul, figure {
   margin-bottom: 1.875rem; }
 
 /* line 28, _base.scss */
-h3, h4, h5, h6 {
+h3, h4, h5, h6, img {
   margin-bottom: 1.25rem; }
 
 /* line 32, _base.scss */
@@ -433,22 +433,24 @@ a {
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
-  transition: all 0.1s ease-in; }
-  /* line 99, _base.scss */
+  transition: all 0.1s ease-in;
+  color: #FFF;
+  background: #7DA9F9; }
+  /* line 102, _base.scss */
   .btn:link, .btn:visited {
     color: #FFF;
     background: #7DA9F9; }
-  /* line 103, _base.scss */
+  /* line 106, _base.scss */
   .btn:hover, .btn:active, .btn:focus {
     color: #FFF;
     background: #5484DB; }
 
-/* line 111, _base.scss */
+/* line 114, _base.scss */
 ul {
   padding-left: 0;
   list-style: none; }
 
-/* line 118, _base.scss */
+/* line 121, _base.scss */
 hr {
   width: 20%;
   height: 4px;
@@ -458,7 +460,7 @@ hr {
   background: #F3F3F3;
   margin-bottom: 3.75rem; }
 
-/* line 130, _base.scss */
+/* line 133, _base.scss */
 .container {
   position: relative;
   max-width: 720px;
@@ -467,18 +469,18 @@ hr {
   padding-right: 16px;
   box-sizing: border-box; }
 
-/* line 139, _base.scss */
+/* line 142, _base.scss */
 .row {
   margin-left: -16px;
   margin-right: -16px; }
 
-/* line 144, _base.scss */
+/* line 147, _base.scss */
 .container:after, .row:after {
   content: "";
   display: table;
   clear: both; }
 
-/* line 150, _base.scss */
+/* line 153, _base.scss */
 section {
   padding-bottom: 3.75rem; }
 
