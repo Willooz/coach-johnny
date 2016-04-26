@@ -21,11 +21,11 @@ h2 {
   margin-bottom: $space-y;
 }
 
-h1, h2, blockquote, pre, ul, img, figure {
+h1, blockquote, pre, ul, figure {
   margin-bottom: $space-y / 2;
 }
 
-h3, h4, h5, h6 {
+h3, h4, h5, h6, img {
   margin-bottom: $space-y / 3;
 }
 
@@ -96,6 +96,9 @@ a {
   font-weight: 700;
   text-align: center;
   transition: all 0.1s ease-in;
+  color: $white;
+  background: $blue-light;
+
   &:link, &:visited {
     color: $white;
     background: $blue-light;
